@@ -1,0 +1,14 @@
+name: MassSay
+author: Lv_
+description: Make everyone say somthing.
+version: 1.0.1
+api-version: 1.16
+main: club.pillowmc.masssay.Main
+commands:
+  masssay:
+    aliases: [ms]
+    description: Make everyone say somthing.
+    permission: masssay.use
+permissions:
+  masssay:
+  default: op
